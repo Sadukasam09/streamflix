@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/wepage/style/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+  
+        <h1>StreamFlix</h1>
+        <ul class="nav-login">
+            
+                <a href="javascript:void(0)" onclick="createForm()">register</a>
+                <div id="formContainer"></div>
+                &nbsp;|&nbsp; 
+                <a href="/register">login</a>
+            
+        </ul>
+    </header>
+
+    <div class="search-container">
+       <div class="search">
+           <input type="text"  class="Search-input" placeholder="search...">
+        </div>
+       <div class="pull">
+         <select name="rating" id="rating">
+            <option value="" disabled selected hidden>Select Rating</option>
+            <option value="0">all</option>
+            <option value="9">9+</option>
+            <option value="8">8+</option>
+            <option value="7">7+</option>
+            <option value="6">6+</option>
+            <option value="5">5+</option>
+            <option value="4">4+</option>
+            <option value="3">3+</option>
+            <option value="2">2+</option>
+            <option value="1">1+</option>
+         </select>
+     
+         <select name="genre" class="genre">
+                <option value="" disabled selected hidden>Select Genre</option>
+             <option value="1">action</option>
+             <option value="2">adventure</option>
+             <option value="3">animation</option>
+             <option value="4">biography</option>
+             <option value="5">comedy</option>
+             <option value="6">crime</option>
+             <option value="7">drama</option>
+             <option value="8">family</option>
+             <option value="9">fantasy</option>
+             <option value="10">film-noir</option>
+             <option value="11">history</option>
+             <option value="12">horror</option>
+             <option value="13">music</option>
+             <option value="14">musical</option>
+             <option value="15">mystery</option>
+             <option value="16">romance</option>
+             <option value="17">sci-fi</option>
+             <option value="18">sport</option>
+             <option value="19">thriller</option>
+             <option value="20">war</option>
+             <option value="21">western</option>
+          </select>
+    
+          <select name="yaer" class="year">
+              <option value="" disabled selected hidden>Select Year</option>
+             <option value="2024">2024</option>
+             <option value="2023">2023</option>
+             <option value="2022-2020">2022-2020</option>
+             <option value="2019-2010">2019-2010</option>
+             <option value="2009-2000">2009-2000</option>
+             <option value="1999-1990">1999-1990</option>
+             <option value="1989-1980">1989-1980</option>
+             <option value="1979-1970">1979-1970</option>
+             <option value="1969-1960">1969-1960</option>
+          </select> 
+    
+           <select name="sort" class="sort">
+             <option value="" disabled selected hidden>oder By</option>
+             <option value="oldest">oldest</option>
+             <option value="newest">newest</option>
+             <option value="year">year</option>
+             <option value="rating">rating</option>
+            </select>
+            
+       </div> 
+       <button class="search-button">Search</button>   
+    </div>
+       
+    <div class="reccomendation-containner">
+        <h2>Reccomendation</h2>
+        <div class="reccomendation">
+            <div class="movie">
+                <img src="path_to_image" alt="Movie Poster">
+                <h3>Movie Title</h3>
+            </div>
+
+            <div class="movie">
+                <img src="path_to_image" alt="Movie Poster">
+                <h3>Movie Title</h3>
+            </div>
+
+            <div class="movie">
+                <img src="path_to_image" alt="Movie Poster">
+                <h3>Movie Title</h3>
+            </div>
+
+            <div class="movie">
+                <img src="path_to_image" alt="Movie Poster">
+                <h3>Movie Title</h3>
+            </div>
+          
+        </div>
+    </div>
+    <div class="trending-containner">
+        <h2>newest</h2>
+        <div class="trending">
+            <div class="movie">
+                <img src="path_to_image" alt="Movie Poster">
+                <h3>Movie Title</h3>
+                
+            </div>
+
+            <div class="movie">
+                <img src="path_to_image" alt="Movie Poster">
+                <h3>Movie Title</h3>
+                
+            </div>
+            <!-- Add more movie elements as needed -->
+        </div>
+    </div>
+
+    <footer>
+    <H3>StreamFlix</h3>
+        <p>StreamFlix is a streaming service that offers a wide variety of TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices. You can watch as much as you want, whenever you want, without a single commercial – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
+    </footer>    
+
+
+<script src="/javascript/log.js"></script>
+
+</body>
+</html>

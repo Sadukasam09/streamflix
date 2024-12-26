@@ -1,0 +1,151 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+
+
+.search{
+	display: flex;
+	justify-content: center;
+	width: 50%;
+}
+.Search-input {
+	font-size: 20px; /* Makes text larger */
+	padding: 12px 24px; /* Increases height and maintains horizontal padding */
+	width: 70%; /* Adjust based on preference, 80% of its container's width */
+	border: 2px solid #ccc; /* Optional: Adds a solid border */
+	border-radius: 4px; /* Optional: Rounds the corners */
+	display: block; /* Makes it a block element */
+}
+
+.Search-input:focus {
+	background-color: #f0f0f0; /* Change this color to your desired focus color */
+    transition: 0.3s;
+}
+.Search-input:focus::placeholder {
+	color: transparent; /* Hides the placeholder text */
+}
+.search-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px;
+
+}
+.pull{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	margin-top: 10px;
+
+}
+select{
+	padding: 25px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin-right: 20px;
+}
+.search-button{
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background-color: #333;
+	color: #fff;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.search-button:hover{
+	background-color: #444;
+	transition: 0.5s;
+	box-shadow: 0 0 8px 2px #ac1b1b; 
+}
+
+.nav-login{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	padding: 20px;
+}
+a{
+	text-decoration: none;
+	color: #fefdfd;
+}
+a:hover{
+	color: #ccc;
+}
+.trending{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: row;
+	padding: 20px;
+}
+.reccomendation{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: row;
+	padding: 20px;
+}
+h2{
+	display: flex;
+	justify-content: center;
+}
+
+.form-input {
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.form-button {
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.form-button:hover {
+	background-color: #0056b3;
+}
+
+.form-container {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+	margin-top: 12%;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+}
+
+
+
+
